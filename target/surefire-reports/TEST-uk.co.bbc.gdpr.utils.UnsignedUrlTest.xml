@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="uk.co.bbc.gdpr.utils.UnsignedUrlTest" time="0.02" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="https.proxyHost" value="www-cache.reith.bbc.co.uk"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="http.proxyPort" value="80"/>
+    <property name="javax.net.ssl.keyStore" value="/Users/mundyd02/Documents/certificates/dmundyPersonalCert.p12"/>
+    <property name="user.name" value="mundyd02"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
+    <property name="classworlds.conf" value="/opt/maven/bin/m2.conf"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="gopherProxyHost" value="www-cache.reith.bbc.co.uk"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="http.nonProxyHosts" value="core.bbc.co.uk|*.core.bbc.co.uk|gateway.bbc.co.uk|*.gateway.bbc.co.uk|local|*.local|169.254/16|*.169.254/16|10/8|*.10/8"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/opt/maven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="GB"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="https.proxyPort" value="80"/>
+    <property name="ftp.proxyHost" value="ftp-gw.reith.bbc.co.uk"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="socksNonProxyHosts" value="core.bbc.co.uk|*.core.bbc.co.uk|gateway.bbc.co.uk|*.gateway.bbc.co.uk|local|*.local|169.254/16|*.169.254/16|10/8|*.10/8"/>
+    <property name="ftp.nonProxyHosts" value="core.bbc.co.uk|*.core.bbc.co.uk|gateway.bbc.co.uk|*.gateway.bbc.co.uk|local|*.local|169.254/16|*.169.254/16|10/8|*.10/8"/>
+    <property name="user.home" value="/Users/mundyd02"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="library.jansi.path" value="/opt/maven/lib/jansi-native"/>
+    <property name="java.library.path" value="/Users/mundyd02/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="javax.net.ssl.keyStoreType" value="PKCS12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="true"/>
+    <property name="maven.home" value="/opt/maven"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="gopherProxyPort" value="80"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/var/folders/2y/627ph0s96_dg3b25_zsmlqq4brr8yt/T/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mundyd02/Documents/git/UnsignedUrl"/>
+    <property name="http.proxyHost" value="www-cache.reith.bbc.co.uk"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.ext.dirs" value="/Users/mundyd02/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="ftp.proxyPort" value="21"/>
+    <property name="user.dir" value="/Users/mundyd02/Documents/git/UnsignedUrl"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="javax.net.ssl.keyStorePassword" value="clarekn123"/>
+  </properties>
+  <testcase classname="uk.co.bbc.gdpr.utils.UnsignedUrlTest" name="UnsignedUrl_getUrl_returns_URL" time="0.017"/>
+  <testcase classname="uk.co.bbc.gdpr.utils.UnsignedUrlTest" name="UnsignedUrl_CreateUnsignedURLList_returns_list_one" time="0"/>
+  <testcase classname="uk.co.bbc.gdpr.utils.UnsignedUrlTest" name="UnsignedUrl_CreateUnsignedURLList_returns_list_multiple" time="0.001"/>
+  <testcase classname="uk.co.bbc.gdpr.utils.UnsignedUrlTest" name="UnsignedUrl_CreateUnsignedURLList_returns_list_empty" time="0.002"/>
+</testsuite>
